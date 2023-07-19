@@ -1,0 +1,65 @@
+body {
+    background: url(images/bgimg.png) ;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+body 
+{ 
+    line-height: 1; margin: auto; padding: auto; 
+}
+
+html, body
+{ 
+    width: 100%; height: 100%; overflow: hidden; 
+}
+a:link 
+{ 
+    text-decoration: none; 
+}
+.intro 
+{ 
+    position: absolute; left: 215px; top:20%; padding:20px;  width: 70%;  text-align: center;
+    backdrop-filter:saturate(60%) blur(30px);
+    border-radius: 30px;
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    
+}
+h1 {
+        color: #fff;
+        font-size: 100px;
+        font-weight: 700;
+        letter-spacing: 0.015em;
+    }
+.btn
+    {
+            display: inline-block;
+            padding: 15px 30px;
+            border: 2px solid #fff;
+            letter-spacing: 0.015em;
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 1;
+            background-color: #000;
+            color: #fff;
+            text-decoration: none;
+         }
+.btn:hover 
+        {
+            color: #000;
+            border-color: black;
+            background-color: rgba(140, 143, 143, 0.952);
+        }
+        a{
+            letter-spacing: 0.015em;
+            font-size: 23px;
+            font-weight: 600;
+            line-height: 1;
+            color:white;
+         }
+        a:link 
+        { 
+            text-decoration: none;
+        }

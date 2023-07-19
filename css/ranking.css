@@ -1,0 +1,148 @@
+body{
+    background: url(images/bgimg.png) ;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+nav {
+margin: 27px auto 0;
+position: relative;
+width: 715px;
+height: 70px;
+background-color: black;
+border-radius: 8px;
+font-size: 0;
+}
+nav a {
+padding-top: 8px;
+line-height: 50px;
+height: 60px;
+font-size: 18px;
+display: inline-block;
+position: relative;
+z-index: 1;
+text-decoration: none;
+text-transform: uppercase;
+text-align: center;
+color: white;
+cursor: pointer;
+width: 133px;
+padding-left:10px;
+border-radius: 8px;
+}
+ nav a:hover{
+color:#70cfee;
+text-shadow: 2px 2px 8px #70cfee;
+}
+
+.background{
+position: absolute;
+transform: translate(-50%,-50%);
+top: 25%;
+left: 50%;
+font-size: 12px;
+font-family: sans-serif;
+width: 70%;
+height: 40%;
+border-radius: 20px;
+backdrop-filter: blur(30px);
+border: 2px solid rgba(54, 57, 186, 0.1);
+}
+.heading{
+text-align: center;
+margin: 40px 0 40px;
+text-align: center;
+font-size: 40px;
+color: #ecf0f1;
+text-shadow: 2px 2px 4px #000000;
+font-family:sans-serif;
+}
+.user{
+position: absolute;
+left: 5px;
+top:5px;
+color:black;
+}
+table {
+    font-size: 12px;
+    font-family: sans-serif;
+    width: 95%;
+    margin-top: 80px;
+    border-collapse: collapse;
+    background-color: #1fe4f5;
+    }
+
+th {
+    font-size: larger;
+    color:black;
+    width:100%;
+    background:white;
+    padding:15px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    align-content: center;
+    }
+
+tr {
+    align-content: center;
+    width:96%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+td{
+    flex: 1 1 20%;
+    color:black;
+    max-width: 150px;
+    padding:5px;
+    min-width: 100px;
+    line-height: 35px;
+    padding-left:30px;
+    padding-right:70px;
+    font-size: larger;
+    border-collapse: collapse;
+    border: 1px solid black;
+    align-content: center;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+tr:hover{
+    background-color: rgb(243, 164, 243);
+}
+#qdata{
+position: relative;
+top: 280px;
+left: 195px;
+}
+#start{
+background-color: rgb(44, 245, 34);
+}
+table a{
+text-decoration: none;
+font-size: larger;
+}
+
+.noquiz{
+    visibility: hidden;
+position: absolute;
+transform: translate(-50%,-50%);
+top: 40%;
+left: 50%;
+font-size: 2opx;
+font-family: sans-serif;
+color: red;
+
+
+}
+
+.content{
+    position: relative;
+    left: -70px;
+    z-index: -1;
+    font-size: 12px;
+    font-family: sans-serif;
+    width: 15%;
+    
+}

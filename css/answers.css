@@ -1,0 +1,52 @@
+body{
+background-position: center center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+background-Color:  rgb(35, 161, 147);
+padding: 30px;
+margin: 30px;
+}
+
+nav {
+margin: 27px auto 0;
+position: relative;
+width: 750px;
+height: 70px;
+background-color: black;
+border-radius: 8px;
+font-size: 0;
+margin-bottom:30px;
+font-family: sans-serif;
+}
+nav a {
+padding-top: 8px;
+line-height: 50px;
+height: 60px;
+font-size: 18px;
+display: inline-block;
+position: relative;
+z-index: 1;
+text-decoration: none;
+text-transform: uppercase;
+text-align: center;
+color: white;
+cursor: pointer;
+width: 133px;
+padding-left:14px;
+border-radius: 8px;
+}
+nav a:hover{
+color:#4be54b;
+}
+.title{
+text-align:center;
+font-size:45px;
+color:white;
+}
+.correctAns{
+color: rgb(251, 255, 5);
+}
+.navbar{
+padding-bottom: 20px;
+}

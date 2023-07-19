@@ -1,0 +1,118 @@
+body{
+    background: url(images/bgimg.png) ;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+form{
+    display: flex;
+    flex-wrap:wrap;
+    align-content:center;
+    height: 550px;
+    width: 420px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    backdrop-filter:saturate(60%)  blur(10px);
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    padding: 30px 35px;
+}
+form *{
+    font-family:sans-serif;
+    color: #ffffff;
+    letter-spacing: 0.5px;
+    outline: none;
+    border: none;
+}
+h3{ 
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 42px;
+}
+h2{
+    color:rgb(240, 111, 111);
+    margin-top: 50px;
+    margin-bottom:-20px;
+    margin-left:95px;
+    font-size: 22px;
+    font-weight: 350;
+    line-height: 22px;
+}
+
+label{
+    
+    display: block;
+    margin-top: 12px;
+    font-size: 16px;
+    font-weight: 500;
+}
+input{
+    height: 35px;
+    width: 100%;
+    background-color: white;
+    color:black;
+    border-radius: 3px;
+    padding: 0 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: 300;
+}
+::placeholder{
+    padding:20px;
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+}
+button{
+    margin-top: 30px;
+    width: 100%;
+    background-color: #ffffff;
+    color: #080710;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: 100;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn
+{
+    display: inline-block;
+    padding: 15px 30px;
+    border: 2px solid #fff;
+    letter-spacing: 0.015em;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+ }
+.btn:hover 
+{
+    
+    border-color: black;
+}  
+.log
+{
+    margin-top:30px;
+    margin-left:30px;
+    letter-spacing: 0.015em;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1;
+    text-decoration: none;
+ }
+ a{
+    color: rgb(76, 236, 148);
+ }
+a:link 
+{ 
+    text-decoration: none;
+}

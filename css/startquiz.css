@@ -1,0 +1,84 @@
+body{
+    text-align: center;
+    color: white;
+    background-color: rgb(47, 108, 47);
+}
+
+@keyframes colortransition
+{
+    from{
+        background-color:rgb(47, 108, 47);
+    }
+    to{
+        background-color:rgb(162, 34, 34);
+    }
+}
+
+.qwindow{
+    background-color: #70cfee;
+    text-align: left;
+    color: black;
+    display: block;
+    margin: 80px;
+    padding: 30px;
+    position: relative;
+    top: -60px;
+    border-radius: 30px;
+
+}
+hr{
+    height: 2px;
+    background-color: rgb(47, 108, 47);
+}
+.next{
+    cursor:crosshair;
+    margin:30px;
+    width: 80px;
+    height: 40px;
+    color: aliceblue;
+    background-color: blue;
+    position:relative;
+    left:45%;
+}
+input[type='radio']
+{
+    font-size: large;
+    width: 200px;
+    height: 30px;
+    text-align: left;
+}
+.next:hover{
+    cursor: pointer;
+    color: blue;
+    background-color: aliceblue;
+    
+}
+button{
+    cursor: pointer;
+}
+
+#clock{
+    width: 50px;
+    height: 20px;
+    font-size:larger;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    position:sticky;
+    left: 1280px;
+    top: 20px;
+    border-radius: 20px;
+}
+.quest{
+    text-align:center;
+    background-color: #f2c644;
+    padding: 30px;
+}
+
+
+
+.title{
+    position: relative;
+    font-size:60px;
+    font-family: sans-serif;
+}
